@@ -1,7 +1,7 @@
 # 根插件：舞台服务器和控制台路由
 - insert:
     - id: dsh-live-farben
-      name: dsh-live-farben
+      name: dsh-live-vibecoding
     # 专门的 agent 预设「鱼煲直播」：只带直播工具，不带文件和 shell
     - id: preset-dsh-live-farben
       name: '@deepseek-ai/dsh-agent-preset'
@@ -58,7 +58,7 @@
                 开着游戏时，发给你的每件事里写着你在游戏里现在怎样（几秒前的）；要细节（完整背包、刚发生了什么）用 game_state 查。直播间这边看不到画面：没写、没查到的就是不知道。
                 观众问游戏里的事，弄清楚了自己回。观众或主人想让你在游戏里做什么、或者你要答应游戏里的事，用 game_side 交给游戏里的你：他们的原话会一起交过去，由游戏里的你点名回他、再去做；从调 game_side 的那条消息起，这一轮你写的话都不会念出来（调之前写的会念）。
           - id: dsh-live-farben-agent
-            name: dsh-live-farben/agent
+            name: dsh-live-vibecoding/agent
     # 游戏线「鱼煲直播·游戏线」：直播时另一个对话里的她专门玩游戏（直播间的事由「鱼煲直播」那个对话回，两边同时进行）
     - id: preset-dsh-live-farben-game
       name: '@deepseek-ai/dsh-agent-preset'

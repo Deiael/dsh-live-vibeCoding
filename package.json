@@ -1,5 +1,5 @@
 {
-  "name": "dsh-live-farben",
+  "name": "dsh-live-vibecoding",
   "version": "0.0.1",
   "description": "Let your DeepSeek Harness agent go live on Bilibili: reads the room, thanks gifts, welcomes viewers, remembers regulars, and talks with its own voice on a stage you can skin.",
   "type": "module",
@@ -60,5 +60,13 @@
     "typescript": "6.0.3",
     "vitest": "3.2.4",
     "ws": "8.18.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deiael/dsh-live-vibecoding.git"
+  },
+  "homepage": "https://github.com/Deiael/dsh-live-vibecoding",
+  "bugs": {
+    "url": "https://github.com/Deiael/dsh-live-vibecoding/issues"
   }
 }

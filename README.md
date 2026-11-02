@@ -1,8 +1,18 @@
-# dsh-live-farben
+# dsh-live-vibecoding
 
 Let your [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) agent host a Bilibili livestream: it reads the chat, thanks gifts, welcomes viewers, remembers regulars, queues viewer-requested videos on a skinnable stage, and speaks with its own TTS voice — pushed to Bilibili through OBS.
 
 一个让 DeepSeek Harness 在 B 站当主播的插件：读弹幕、谢礼物、欢迎新观众、记住常客，把观众点的视频排进队列放在舞台上，用自己的 TTS 音色说话，画面经 OBS 推到 B 站。
+
+## Screenshots / 界面预览
+
+**Livestream console / 直播控制台** — the stage as the audience sees it (character, notice board, danmaku, gift board, video request queue), plus the OBS browser-source address and theme picker.
+
+![Livestream console](assets/screenshots/console.png)
+
+**Settings / 设置** — Bilibili room id, push to Bilibili (`检查 OBS`, stream title, area, encoder and bitrate), and the on-stage notice board text the character reads out.
+
+![Settings](assets/screenshots/settings.png)
 
 ## Features / 功能
 
@@ -27,16 +37,16 @@ Let your [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) age
 From npm:
 
 ```sh
-dsh plugin --profile desktop add dsh-live-farben
+dsh plugin --profile desktop add dsh-live-vibecoding
 ```
 
 From GitHub:
 
 ```sh
-dsh plugin --profile desktop add github:Deiael/dsh-live-farben
+dsh plugin --profile desktop add github:Deiael/dsh-live-vibecoding
 ```
 
-Then add `dsh-live-farben` to the `dsh.profile.bundles` list of your profile and restart DeepSeek Harness.
+Then add `dsh-live-vibecoding` to the `dsh.profile.bundles` list of your profile and restart DeepSeek Harness.
 
 ## First run / 第一次使用
 

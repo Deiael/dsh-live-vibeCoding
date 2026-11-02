@@ -1,6 +1,6 @@
 {
   "name": "dsh-live-vibecoding",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Let your DeepSeek Harness agent go live on Bilibili: reads the room, thanks gifts, welcomes viewers, remembers regulars, and talks with its own voice on a stage you can skin.",
   "type": "module",
   "license": "MIT",

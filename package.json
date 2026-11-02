@@ -63,10 +63,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Deiael/dsh-live-vibecoding.git"
+    "url": "git+https://github.com/Deiael/dsh-live-vibeCoding.git"
   },
-  "homepage": "https://github.com/Deiael/dsh-live-vibecoding",
+  "homepage": "https://github.com/Deiael/dsh-live-vibeCoding",
   "bugs": {
-    "url": "https://github.com/Deiael/dsh-live-vibecoding/issues"
+    "url": "https://github.com/Deiael/dsh-live-vibeCoding/issues"
   }
 }

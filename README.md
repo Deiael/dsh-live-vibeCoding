@@ -43,7 +43,7 @@ dsh plugin --profile desktop add dsh-live-vibecoding
 From GitHub:
 
 ```sh
-dsh plugin --profile desktop add github:Deiael/dsh-live-vibecoding
+dsh plugin --profile desktop add github:Deiael/dsh-live-vibeCoding
 ```
 
 Then add `dsh-live-vibecoding` to the `dsh.profile.bundles` list of your profile and restart DeepSeek Harness.
